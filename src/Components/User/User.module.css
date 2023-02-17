@@ -1,0 +1,32 @@
+.user{
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 70%;
+    border-style: solid;
+    text-align: left;
+    padding: 5px;
+    margin-right: 25px;
+    border-width: 1px;
+    background-color: #8b005d;
+    color: white;
+    padding: 10px 0px 10px 10px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.user:hover{
+    border-radius: 10px;
+    background-color: #8b005dda;
+    padding: 15px 10px 15px 10px;
+}
+@media (max-width: 500px) {
+    .user{
+        padding: 20px 10px 20px 10px;
+    }
+    .user:hover{
+        border-radius: 10px;
+        background-color: #8b005dda;
+        padding: 25px 15px 25px 15px;
+    }    
+}
